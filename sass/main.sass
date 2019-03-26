@@ -1,0 +1,362 @@
+@import "vars"
+@import "fonts"
+@import "libs"
+
+#header	
+	height: 100vh
+	width: 100%
+	background-color: #fff
+	.header
+		height: 45px
+		width: 100%
+		background-color: #f0f2f4
+		ul 
+			padding-left: 0px
+			li
+				display: inline-block
+				a 
+					font-family: Helvetica Normal
+					font-size: 15px
+					color: #424242
+					text-decoration: none
+					line-height: 45px
+					.phone, .letter
+					 	padding-right: 10px
+				.line 
+					padding: 0 20px
+	.menu
+		height: 132px
+		width: 100%
+		.logo
+			padding-top: 25px
+		.nav
+			text-align: right
+			ul 
+				padding-left: 0px
+				li
+				 	display: inline-block
+				 	padding-top: 50px
+				 	a 
+				 		text-decoration: none
+				 		color: #424242
+				 		font-family: HelveticaNeue Bold
+				 		font-size: 15px
+				 		img 
+				 			margin: 15px
+							&:hover
+							 	color: #de2b24 
+		.button 
+			padding-top: 50px
+			button
+				width: 170px
+				height: 35px
+				background-color: #de2b24
+				border-radius: 5px
+				color: #fff
+				font-family: HelveticaNeue 
+				font-weight: bold
+				font-size: 15px
+				outline: none
+	.banner	
+		background-image: url(../img/foon-banner.png)
+		background-position: center
+		background-size: cover
+		height: 73vh
+		padding-top: 10%
+		text-align: center
+		color: #fff
+		.title
+			font-family: Helvetica 
+			tont-weight: bold
+			font-size: 48px
+		.tagline
+			font-size: 30px
+			margin-bottom: 30px
+		.button
+			width: 330px
+			height: 70px
+			background-color: #f8cd53
+			color: #fff
+			font-size: 24px 
+			font-family: HelveticaNeue
+			font-weight: bold 
+			text-transform: uppercase
+			outline: none
+			border-radius: 10px
+			border: 0px
+
+#content 
+	.about
+		height: 540px
+		padding: 100px 0
+		text-align: center
+		.title	 
+			font-family: HelveticaNeue
+			font-weight: bold
+			font-size: 36px
+			color: #424242
+			line-height: 26px
+		.tagline
+			font-size: 20px 
+			padding-top: 10px
+			line-height: 26px
+			font-size: HelveticaNeue
+		.line 
+			margin-bottom: 30px
+		.colns
+			text-align: center
+			.title
+				font-family: HelveticaNeue
+				font-weight: bold
+				font-size: 22px
+				color: #424242
+				margin: 20px 0
+			.tagline
+				font-family: OpenSans
+				margin: auto
+				width: 240px
+				font-size: 13px 
+				line-height: 22px
+				color: #424242
+	.approch
+		text-align: center
+		height: 1400px
+		background-color: #f3f3f3
+		padding: 100px 0
+		.title	 
+			font-family: HelveticaNeue
+			font-weight: bold
+			font-size: 36px
+			color: #424242
+			line-height: 26px
+		.tagline
+			font-size: 20px 
+			padding-top: 10px
+			line-height: 26px
+			font-size: HelveticaNeue
+		.line 
+			margin-bottom: 30px
+		.step-left
+			position: relative
+			margin-bottom: 40px
+			.button
+				position: absolute
+				top: 60px 
+				left: 330px
+				z-index: 2
+				button 
+					width: 108px
+					height: 108px
+					border: 4px solid #fff
+					border-radius: 5px
+					background-color: #de2b24
+					text-align: center
+					color: #fff
+					font-size: 60px
+					line-height: 21px
+					font-weight: bold
+					span 
+						font-size: 20px
+			.foto 
+				width: 100%
+				position: relative
+				z-index: 1
+				img 
+					width: 100%
+			.text
+				background-color: #fff
+				text-align: left
+				padding: 70px 35px 0 90px
+				.title
+					font-family: HelveticaNeue 
+					font-weight: bold
+					font-size: 18px 
+					line-height: 26px
+					color: #424242	
+					margin-bottom: 20px
+				.tagline
+					font-size: 13px
+					line-height: 22px
+					color: #424242s		
+		.step-right
+			position: relative
+			margin-bottom: 40px
+			.button
+				position: absolute
+				top: 60px 
+				left: 700px
+				z-index: 2
+				button 
+					width: 108px
+					height: 108px
+					border: 4px solid #fff
+					border-radius: 5px
+					background-color: #de2b24
+					text-align: center
+					color: #fff
+					font-size: 60px
+					line-height: 21px
+					font-weight: bold
+					span 
+						font-size: 20px
+			.foto 
+				width: 100%
+				position: relative
+				z-index: 1
+				img 
+					width: 100%
+			.text
+				background-color: #fff
+				text-align: right
+				padding: 70px 90px 0 70px
+				.title
+					font-family: HelveticaNeue 
+					font-weight: bold
+					font-size: 18px 
+					line-height: 26px
+					color: #424242	
+					margin-bottom: 20px
+				.tagline
+					font-size: 13px
+					line-height: 22px
+					color: #424242s		
+	.work
+		height: 870px
+		background-color: #de2b24
+		text-align: center
+		color: #fff
+		padding: 100px 0
+		.title	 
+			font-family: HelveticaNeue
+			font-weight: bold
+			font-size: 36px
+			line-height: 26px
+		.tagline
+			font-size: 20px 
+			padding-top: 10px
+			line-height: 26px
+			font-size: HelveticaNeue
+		.line 
+			margin-bottom: 30px
+		.gallery
+			img 
+				width: 100%
+	.freeFacebook 
+		height: 845px
+		background-color: #1287bf
+		text-align: center
+		color: #fff
+		padding: 100px 0
+		.title	 
+			font-family: HelveticaNeue
+			font-weight: bold
+			font-size: 36px
+			line-height: 26px
+		.tagline
+			font-size: 20px 
+			padding-top: 10px
+			line-height: 26px
+			font-size: HelveticaNeue
+		.line 
+			margin-bottom: 30px
+		.message 
+			background-image: url(../img/message.png)	
+			background-position: center
+			background-repeat: no-repeat
+			height: 480px
+			text-align: center
+			position: relative
+			.exit
+				background: none
+				border: 0px
+				outline: none
+				position: absolute	
+				top: 0px
+				right: 5px
+			.text
+				font-family: Helvetica
+				padding-top: 75px 
+				margin-bottom: 40px
+				color: #828282
+				margin: auto
+				width: 560px
+				text-align: center
+			form 
+				margin-top: 40px
+				input 
+					width: 440px
+					padding: 10px
+					margin-bottom: 10px
+				button
+					width: 160px
+					height: 45px
+					background-color: #de2b24
+					color: #fff
+					text-transform: uppercase
+					outline: none
+					border-radius: 5px
+					border: 0px	
+	.touch
+		height: 490px
+		padding: 90px 0
+		background-color: #2a2a2a
+		text-align: center
+		.title
+			font-family: HelveticaNeue
+			font-weight: bold
+			color: #fff
+			font-size: 29px
+			line-height: 22px
+		.link
+			margin-bottom: 25px			
+			ul 
+				padding-left: 0px 
+				li 
+					display: inline-block
+					button
+						width: 50px 
+						height: 50px
+						background: none  
+						margin-right: 20px	
+						border: 3px solid #515151
+						&:hover 
+							border: 3px solid #de2b24
+		.tagline
+			font-family: OpenSans
+			font-size: 14px 
+			line-height: 22px
+			color: #cecece
+			margin-bottom: 30px
+		form 
+			input
+				width: 680px
+				height: 55px
+				background-color: #515151
+				border: 0px
+				padding: 20px
+				font-family: OpenSans
+				font-size: 14px 
+				line-height: 22px
+				color: #cecece
+		button 
+			margin-top: 40px
+			width: 155px
+			height: 55px
+			background: none
+			border: 3px solid #515151
+			border-radius: 5px
+			color: #fff 
+			font-weight: bold
+
+#footer	
+	height: 65px
+	background-color: #515151
+	padding: 10px 0
+	.title
+		font-family: OpenSans
+		font-size: 14px 
+		line-height: 27px	
+		text-align: center
+		color: #cecece
+
+@import "media" // Always at the end
